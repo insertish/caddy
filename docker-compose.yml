@@ -7,6 +7,6 @@ services:
     network_mode: host
     volumes:
       # Configuration
-      - ./Caddyfile.example:/etc/caddy/Caddyfile
+      - ./Caddyfile:/etc/caddy/Caddyfile
       - ./data:/data
       - ./config:/config
