@@ -1,0 +1,8 @@
+# Data
+config
+data
+
+# Configuration
+docker-compose.override.yml
+Dockerfile
+Caddyfile

@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  caddy:
+    image: caddy
+    restart: always
+    network_mode: host
+    volumes:
+      # Configuration
+      - ./Caddyfile.example:/etc/caddy/Caddyfile
+      - ./data:/data
+      - ./config:/config
