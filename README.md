@@ -15,6 +15,13 @@ docker-compose up -d
 
 Caddy will bind to http://localhost:80 and you can now configure it as usual.
 
+## Working with Caddy
+
+There are several scripts available to make your life easier:
+- `reload.sh`: apply an updated Caddyfile to the running Caddy server
+- `validate.sh`: ensure the provided configuration is valid
+- `fmt.sh`: format the provided Caddyfile
+
 ## Using Plugins
 
 To start using plugins, copy the example Dockerfile:
