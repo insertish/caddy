@@ -10,3 +10,6 @@ services:
       - ./Caddyfile:/etc/caddy/Caddyfile
       - ./data:/data
       - ./config:/config
+
+      # Web Root
+      - ./http:/http

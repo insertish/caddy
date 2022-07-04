@@ -6,3 +6,7 @@ data
 docker-compose.override.yml
 Dockerfile
 Caddyfile
+
+# Web Files
+http/*
+!http/.gitkeep
